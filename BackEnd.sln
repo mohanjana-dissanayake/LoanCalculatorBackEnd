@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator.Api", "LoanCalculator.Api\LoanCalculator.Api.csproj", "{33D306CA-2F81-4202-B3EF-3297745F481F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator.Core", "LoanCalculator.Core\LoanCalculator.Core.csproj", "{85D79E45-9603-49B5-ADE0-F73C0502A11D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator.Infrastructure", "LoanCalculator.Infrastructure\LoanCalculator.Infrastructure.csproj", "{FD9EE38A-B351-4A4F-AFE8-FB9E95E07B4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoanCalculator.Shared", "LoanCalculator.Shared\LoanCalculator.Shared.csproj", "{8F2E7442-9C3E-48E0-B7ED-173635CEC87E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrator", "Migrator\Migrator.csproj", "{0A361D12-2ED2-4555-8F1C-BBDC05AE28D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanCalculator.Api.Tests", "LoanCalculator.Api.Tests\LoanCalculator.Api.Tests.csproj", "{EE60C577-6274-47F7-B0E0-1AE3C3D33F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D306CA-2F81-4202-B3EF-3297745F481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D306CA-2F81-4202-B3EF-3297745F481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D306CA-2F81-4202-B3EF-3297745F481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D306CA-2F81-4202-B3EF-3297745F481F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D79E45-9603-49B5-ADE0-F73C0502A11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D79E45-9603-49B5-ADE0-F73C0502A11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D79E45-9603-49B5-ADE0-F73C0502A11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D79E45-9603-49B5-ADE0-F73C0502A11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9EE38A-B351-4A4F-AFE8-FB9E95E07B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9EE38A-B351-4A4F-AFE8-FB9E95E07B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9EE38A-B351-4A4F-AFE8-FB9E95E07B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9EE38A-B351-4A4F-AFE8-FB9E95E07B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2E7442-9C3E-48E0-B7ED-173635CEC87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2E7442-9C3E-48E0-B7ED-173635CEC87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2E7442-9C3E-48E0-B7ED-173635CEC87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2E7442-9C3E-48E0-B7ED-173635CEC87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A361D12-2ED2-4555-8F1C-BBDC05AE28D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A361D12-2ED2-4555-8F1C-BBDC05AE28D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A361D12-2ED2-4555-8F1C-BBDC05AE28D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A361D12-2ED2-4555-8F1C-BBDC05AE28D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE60C577-6274-47F7-B0E0-1AE3C3D33F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE60C577-6274-47F7-B0E0-1AE3C3D33F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE60C577-6274-47F7-B0E0-1AE3C3D33F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE60C577-6274-47F7-B0E0-1AE3C3D33F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6110BED-092E-4517-AD97-BED7AB5765F1}
+	EndGlobalSection
+EndGlobal
